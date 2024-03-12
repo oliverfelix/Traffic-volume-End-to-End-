@@ -1,0 +1,13 @@
+COLUMNS:
+  holiday: object
+  temp: float64
+  rain_1h: float64
+  snow_1h: float64
+  clouds_all: int64
+  weather_main: object
+  weather_description: object
+  date_time: object
+  traffic_volume: int64
+
+TARGET_COLUMN:
+  name: traffic_volume
