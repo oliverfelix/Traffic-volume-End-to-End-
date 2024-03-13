@@ -1,7 +1,7 @@
-from src.Trafficvol.constants import *
 from src.Trafficvol.utils.common import read_yaml, create_directories
 from src.Trafficvol.entity.config_entity import DataIngestionConfig
-
+from src.Trafficvol.constants import *
+from Trafficvol.entity.config_entity import DataIngestionConfig
 
 class ConfigurationManager:
     def __init__(
@@ -15,8 +15,8 @@ class ConfigurationManager:
         self.schema = read_yaml(schema_filepath)
 
         create_directories([self.config.artifacts_root])
-
-
+        
+        
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
 

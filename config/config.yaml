@@ -2,6 +2,6 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/oliverfelix/Traffic-volume-End-to-End-/raw/main/Metro_Interstate_Traffic_Volume.zip.gz
+  source_URL: https://github.com/oliverfelix/Traffic-volume-End-to-End-/raw/main/metro.zip.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
