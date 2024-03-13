@@ -23,3 +23,12 @@ class DataTransformationConfig:
     root_dir: Path
     data_path: Path
     STATUS_FILE2: str
+    
+    
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path
+    train_data_path: Path
+    test_data_path: Path
+    model_name : str
+    target_column: str

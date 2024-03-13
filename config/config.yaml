@@ -15,3 +15,9 @@ data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts\data_ingestion\Metro_Interstate_Traffic_Volume.csv
   STATUS_FILE2: artifacts/data_transformation/status.txt
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  train_data_path: artifacts/data_transformation/train.csv
+  test_data_path: artifacts/data_transformation/test.csv
+  model_name: model.joblib
